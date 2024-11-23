@@ -9,11 +9,11 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Ford Car Company </h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Welcome to Ford Car Company, where we drive innovation, performance, and style. Our legacy of building world-class vehicles is matched only by our commitment to providing our customers with an exceptional experience. Explore our website to learn more about our history, the powerful vehicles we offer, and how you can connect with us.
 </div>
 
 <br />
