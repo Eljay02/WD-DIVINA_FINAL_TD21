@@ -36,9 +36,7 @@
     <li>
       <a href="#overview">Overview</a>
       <ol>
-        <li>
-          <a href="#key-components">Key Components</a>
-        </li>
+        
         <li>
           <a href="#technology">Technology</a>
         </li>
@@ -56,28 +54,17 @@
 ---
 
 ## Overview
+Project: A website for a car company featuring four landing pages: Home, About, Product, and Contact.
+Purpose: To provide essential information about the company, showcase its products, and offer contact details in a user-friendly format.
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
 
-### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -118,4 +105,9 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Ford Car Company Website   | to expand knowledge on creating a website | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Ford Logo | To Display at home page  |https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.citypng.com%2Fphoto%2F26296%2Fford-logo-emblem-hd-png&psig=AOvVaw2YH1ABpDRpBOy3qdE1yEVv&ust=1732699294926000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCNiMhoPW-YkDFQAAAAAdAAAAABAE|
+| Ford building | To Display at about us  | https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnbc.com%2F2020%2F04%2F30%2Fcoronavirus-ford-plans-health-screenings-temperature-checks-to-bring-office-workers-back-beginning-in-june.html&psig=AOvVaw0QoJMiSDBMLu2mtDcO8o71&ust=1732699434671000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCIDvgcfW-YkDFQAAAAAdAAAAABAE|
+| Ford Mustang | To Dispaly at product page  |https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.topgear.com.ph%2Fbuyers-guide%2Fcars%2Fford%2Fmustang&psig=AOvVaw3xE5RQTp41_KeNWLolYTdt&ust=1732699703135000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMjqv8nX-YkDFQAAAAAdAAAAABAE |
+| Ford F-150 | To Display at PRODUCT PAGE  |https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ford.com%2Ftrucks%2Ff150%2F&psig=AOvVaw1rTQMTpSNK9qFLfxqGGN0c&ust=1732699783313000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCOiolPDX-YkDFQAAAAAdAAAAABAE |
+| Ford Escape | To Display at PRODUCT PAGE  | https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.carsguide.com.au%2Fford%2Fescape&psig=AOvVaw0zK1AULaAnnkfCi4oCnDNe&ust=1732699893341000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCKCi-aXY-YkDFQAAAAAdAAAAABAE |
+
