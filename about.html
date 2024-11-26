@@ -8,32 +8,58 @@
     <style>
         footer {
             background-color: #060920;
+            color: white;
             padding: 20px;
             text-align: center;
-            border-top: 10px 
+     
         }
+
         footer .footer-section {
             display: inline-block;
             vertical-align: top;
             margin: 0 20px;
             text-align: left;
         }
+
         footer .footer-section h4 {
             font-weight: bold;
             margin-bottom: 5px;
         }
+
         footer .footer-section p {
             margin: 5px 0;
             line-height: 1.5;
         }
-      
+
         footer a:hover {
             text-decoration: underline;
         }
 
+        .yellow-bg-darkblue-text {
+            background-color: rgb(255, 218, 8);
+            color: darkblue;
+            border-radius: 10px;
+            padding: 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .yellow-bg-darkblue-text:hover {
+            background-color: darkblue;
+            color: white;
+        }
+
+        .yellow-bg-darkblue-text a {
+            color: darkblue;
+            text-decoration: none;
+        }
+
+        .yellow-bg-darkblue-text:hover a {
+            color: white;
+        }
     </style>
 </head>
 <body>
+
     <header>
         <h1>Ford Company</h1>
         <nav>
@@ -41,7 +67,6 @@
             <a href="about.html">About</a>
             <a href="products.html">Products</a>
             <a href="contact.html">Contact</a>
-            <!-- Hamburger icon for mobile -->
             <div class="hamburger" id="hamburger">
                 <div class="bar"></div>
                 <div class="bar"></div>
@@ -49,17 +74,16 @@
             </div>
         </nav>
     </header>
-    
-  <!-- Side Menu -->
-  <div class="side-menu" id="side-menu">
-    <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</div>
-    
+
+    <div class="side-menu" id="side-menu">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
     <main>
         <div class="about-section">
             <div class="about-content">
@@ -75,7 +99,7 @@
             </div>
         </div>
     </main>
-    <!-- Footer -->
+
     <footer>
         <div class="footer-section">
             <h4>Customer Support</h4>
@@ -87,40 +111,9 @@
         </div>
         <div class="footer-section">
             <h4>Request a Quote</h4>
-            
-            <head>
-                <style>
-                    .yellow-bg-darkblue-text {
-                        background-color: rgb(255, 218, 8);
-                        color: darkblue;
-                        border-radius: 10px; /* Adjust the value to your preference */
-                        padding: 10px; /* Adds some space around the text */
-                        transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
-                    }
-                
-                    .yellow-bg-darkblue-text:hover {
-                        background-color: darkblue; /* Change background to dark blue on hover */
-                        color: white; /* Change text color to white on hover */
-                    }
-                
-                    .yellow-bg-darkblue-text a {
-                        color: darkblue;
-                        text-decoration: none; /* Optional: removes underline from links */
-                    }
-                
-                    .yellow-bg-darkblue-text:hover a {
-                        color: white; /* Change link color to white on hover */
-                    }
-                </style>
-                
-            </head>
-            
-            <body>
-                <p class="yellow-bg-darkblue-text">
-                    <a href="contact.html">See pricing from your local dealer</a>
-                </p>
-            </body>
-            
+            <p class="yellow-bg-darkblue-text">
+                <a href="contact.html">See pricing from your local dealer</a>
+            </p>
         </div>
         <div class="footer-section">
             <h4>Business Address</h4>
@@ -135,5 +128,6 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
