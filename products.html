@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ford</title>
+    <title>Ford Products</title>
     <link rel="stylesheet" href="style.css">
     <style>
         footer {
@@ -26,49 +26,23 @@
             margin: 5px 0;
             line-height: 1.5;
         }
-        
+      
+        footer a:hover {
+            text-decoration: underline;
+        }
 
     </style>
-    <style>
-    .car-details {
-        margin-bottom: 50px; /* Adds space below the car details section */
-    }
-    footer {
-        background-color: #060920;
-        padding: 20px;
-        text-align: center;
-        
-    }
-    footer .footer-section {
-        display: inline-block;
-        vertical-align: top;
-        margin: 0 20px;
-        text-align: left;
-    }
-    footer .footer-section h4 {
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-    footer .footer-section p {
-        margin: 5px 0;
-        line-height: 1.5;
-    }
-    
-    footer a:hover {
-        text-decoration: underline;
-    }
-</style>
 </head>
-<body class="home">  
-
+<body>
+    
     <header>
-        
-        <h1>Ford</h1>
+        <h1>Ford </h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="products.html">Products</a>
             <a href="contact.html">Contact</a>
+
             <!-- Hamburger Icon -->
             <div class="hamburger" id="hamburger">
                 <div class="bar"></div>
@@ -77,7 +51,7 @@
             </div>
         </nav>
     </header>
-
+    
     <!-- Side Menu -->
     <div class="side-menu" id="side-menu">
         <ul class="nav-links">
@@ -89,28 +63,40 @@
     </div>
 
     <main>
-        <div class="hero">
-            <div class="overlay"></div>
-            <div class="hero-content">
-                <h1>Welcome to Ford</h1>
-                <p class="subline">Driving the future with innovation and style</p>
-                <a href="about.html">
-                    <button>Explore More</button>
-                </a>
+        <!-- Products Section -->
+        <section class="product-section">
+            <div class="section-header">
+                <h2>Our Featured Products</h2>
+                <p class="section-description">Explore our top-rated Ford vehicles with premium features and designs.</p>
             </div>
-        </div>
-        
-        <div class="car-details">
-            <h2>Ford Ranger</h2>
-            <div class="car-info">
-                <p><strong>Base Price:</strong> $27,155</p>
-                <p><strong>Power:</strong> 450 horsepower</p>
-                <p><strong>Engine:</strong> 5.0L V8</p>
+            <div class="product-container">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="assets/img/MUSTANG.jpg" alt="Ford Mustang" class="product-image">
+                    <div class="card-content">
+                        <h3>Ford Mustang</h3>
+                        <p class="price">$55,000</p>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="assets/img/FORD F 150.jpg" alt="Ford F-150" class="product-image">
+                    <div class="card-content">
+                        <h3>Ford F-150</h3>
+                        <p class="price">$42,000</p>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="assets/img/FORD E.jpg" alt="Ford Escape" class="product-image">
+                    <div class="card-content">
+                        <h3>Ford Escape</h3>
+                        <p class="price">$28,000</p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
     </main>
-
-    <!-- Footer -->
     <footer>
         <div class="footer-section">
             <h4>Customer Support</h4>
@@ -135,7 +121,6 @@
             <p>eljaydivina0206@gmail.com<br>09369555197</p>
         </div>
     </footer>
-
     <script src="script.js"></script> <!-- Link to external JS -->
 </body>
 </html>
