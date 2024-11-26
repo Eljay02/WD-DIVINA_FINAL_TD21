@@ -36,7 +36,9 @@
 <body>
 
     <header>
-        <h1>Ford </h1>
+        <div class="logo">
+            <img src="assets/img/Ford Logo.png" alt="Logo" class="logo-img">
+          </div>
         <nav id="nav">
             <div id="nav-links">
                 <a href="index.html">Home</a>
@@ -44,7 +46,7 @@
                 <a href="products.html">Products</a>
                 <a href="contact.html">Contact</a>
             </div>
-            <!-- Hamburger Icon -->
+       
             <div class="hamburger" id="hamburger">
                 <div class="bar"></div>
                 <div class="bar"></div>
@@ -53,7 +55,7 @@
         </nav>
     </header>
 
-    <!-- Side Menu (this is what will slide in) -->
+
     <div class="side-menu" id="side-menu">
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
@@ -64,14 +66,14 @@
     </div>
 
     <main>
-        <!-- Contact Section -->
+      
         <section class="contact-section">
             <div class="section-header">
                 <h2 style="color: white;">Contact Us</h2>
                 <p class="section-description" style="color: white;">Get in touch with us for any inquiries or support.</p>
             </div>
 
-            <!-- Contact Form -->
+     
             <div class="contact-form">
                 <form action="#" method="post">
                     <div class="form-group">
@@ -91,7 +93,8 @@
             </div>
         </section>
     </main>
-    <footer>
+     <!-- Footer -->
+     <footer>
         <div class="footer-section">
             <h4>Customer Support</h4>
             <p>Business hours:<br>
@@ -102,9 +105,40 @@
         </div>
         <div class="footer-section">
             <h4>Request a Quote</h4>
-            <p>
-                <a href="contact.html">See pricing from your local dealer</a>
-            </p>
+            
+            <head>
+                <style>
+                    .yellow-bg-darkblue-text {
+                        background-color: rgb(255, 218, 8);
+                        color: darkblue;
+                        border-radius: 10px; /* Adjust the value to your preference */
+                        padding: 10px; /* Adds some space around the text */
+                        transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+                    }
+                
+                    .yellow-bg-darkblue-text:hover {
+                        background-color: darkblue; /* Change background to dark blue on hover */
+                        color: white; /* Change text color to white on hover */
+                    }
+                
+                    .yellow-bg-darkblue-text a {
+                        color: darkblue;
+                        text-decoration: none; /* Optional: removes underline from links */
+                    }
+                
+                    .yellow-bg-darkblue-text:hover a {
+                        color: white; /* Change link color to white on hover */
+                    }
+                </style>
+                
+            </head>
+            
+            <body>
+                <p class="yellow-bg-darkblue-text">
+                    <a href="contact.html">See pricing from your local dealer</a>
+                </p>
+            </body>
+            
         </div>
         <div class="footer-section">
             <h4>Business Address</h4>
@@ -115,7 +149,8 @@
             <p>eljaydivina0206@gmail.com<br>09369555197</p>
         </div>
     </footer>
-    <!-- Link to external JS file -->
-    <script src="script.js"></script> <!-- Include your JavaScript -->
+
+  
+    <script src="script.js"></script> 
 </body>
 </html>

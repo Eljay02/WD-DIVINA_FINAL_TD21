@@ -75,6 +75,7 @@
             </div>
         </div>
     </main>
+    <!-- Footer -->
     <footer>
         <div class="footer-section">
             <h4>Customer Support</h4>
@@ -86,9 +87,40 @@
         </div>
         <div class="footer-section">
             <h4>Request a Quote</h4>
-            <p>
-                <a href="contact.html">See pricing from your local dealer</a>
-            </p>
+            
+            <head>
+                <style>
+                    .yellow-bg-darkblue-text {
+                        background-color: rgb(255, 218, 8);
+                        color: darkblue;
+                        border-radius: 10px; /* Adjust the value to your preference */
+                        padding: 10px; /* Adds some space around the text */
+                        transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+                    }
+                
+                    .yellow-bg-darkblue-text:hover {
+                        background-color: darkblue; /* Change background to dark blue on hover */
+                        color: white; /* Change text color to white on hover */
+                    }
+                
+                    .yellow-bg-darkblue-text a {
+                        color: darkblue;
+                        text-decoration: none; /* Optional: removes underline from links */
+                    }
+                
+                    .yellow-bg-darkblue-text:hover a {
+                        color: white; /* Change link color to white on hover */
+                    }
+                </style>
+                
+            </head>
+            
+            <body>
+                <p class="yellow-bg-darkblue-text">
+                    <a href="contact.html">See pricing from your local dealer</a>
+                </p>
+            </body>
+            
         </div>
         <div class="footer-section">
             <h4>Business Address</h4>
@@ -99,6 +131,7 @@
             <p>eljaydivina0206@gmail.com<br>09369555197</p>
         </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

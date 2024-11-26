@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ford</title>
     <link rel="stylesheet" href="style.css">
+    
     <style>
         footer {
             background-color: #060920;
@@ -31,7 +32,7 @@
     </style>
     <style>
     .car-details {
-        margin-bottom: 50px; /* Adds space below the car details section */
+        margin-bottom: 50px; 
     }
     footer {
         background-color: #060920;
@@ -63,7 +64,10 @@
 
     <header>
         
-        <h1>Ford</h1>
+        <div class="logo">
+            <img src="assets/img/Ford Logo.png" alt="Logo" class="logo-img">
+          </div>
+          
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
@@ -78,7 +82,6 @@
         </nav>
     </header>
 
-    <!-- Side Menu -->
     <div class="side-menu" id="side-menu">
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
@@ -92,8 +95,11 @@
         <div class="hero">
             <div class="overlay"></div>
             <div class="hero-content">
-                <h1>Welcome to Ford</h1>
-                <p class="subline">Driving the future with innovation and style</p>
+                <div class="content">
+                    <h1>Welcome to Ford</h1>
+                    <p class="subline">Driving the future with innovation and style</p>
+                </div>
+                
                 <a href="about.html">
                     <button>Explore More</button>
                 </a>
@@ -122,9 +128,40 @@
         </div>
         <div class="footer-section">
             <h4>Request a Quote</h4>
-            <p>
-                <a href="contact.html">See pricing from your local dealer</a>
-            </p>
+            
+            <head>
+                <style>
+                    .yellow-bg-darkblue-text {
+                        background-color: rgb(255, 218, 8);
+                        color: darkblue;
+                        border-radius: 10px; 
+                        padding: 10px; 
+                        transition: background-color 0.3s ease, color 0.3s ease; 
+                    }
+                
+                    .yellow-bg-darkblue-text:hover {
+                        background-color: darkblue; 
+                        color: white; 
+                    }
+                
+                    .yellow-bg-darkblue-text a {
+                        color: darkblue;
+                        text-decoration: none; 
+                    }
+                
+                    .yellow-bg-darkblue-text:hover a {
+                        color: white; 
+                    }
+                </style>
+                
+            </head>
+            
+            <body>
+                <p class="yellow-bg-darkblue-text">
+                    <a href="contact.html">See pricing from your local dealer</a>
+                </p>
+            </body>
+            
         </div>
         <div class="footer-section">
             <h4>Business Address</h4>
@@ -136,6 +173,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script> <!-- Link to external JS -->
+    <script src="script.js"></script> 
 </body>
 </html>
