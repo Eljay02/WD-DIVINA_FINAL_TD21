@@ -603,7 +603,7 @@ header nav a:hover {
     align-items: center;
     justify-content: flex-start;
     height: calc(100vh - 100px);
-    background: url('assets/img/FORD CAR.png') right center/contain no-repeat;
+    background: url("/pages/HOME/assets/img/FORD\ CAR.png") right center/contain no-repeat;
     color: white;
     padding: 0 10%;
 }
@@ -772,7 +772,7 @@ header nav a:hover {
     padding: 60px 10%;
     gap: 40px;
     align-items: center;
-    background: url('assets/img/abt-bg.jpg') no-repeat center center/cover;
+    background: url('/pages/CSS/style.css') no-repeat center center/cover;
  
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -1067,39 +1067,12 @@ body, h1, p, a, button, input {
 /* Tablet and Small Device Adjustments */
 @media (min-width: 768px) and (max-width: 1024px) {
     .product-container {
-        grid-template-columns: repeat(2, 1fr);  
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  /* Display 2 products per row */
+        gap: 20px;  /* Add spacing between product cards */
     }
 
     .product-card {
-        width: 45%;  
+        width: 100%;  /* Ensure each card takes up full column width */
     }
 }
-
-/* Large Screen Adjustment */
-@media (min-width: 1024px) {
-    .product-container {
-        grid-template-columns: repeat(3, 1fr);  
-    }
-
-    .product-card {
-        width: 30%;  
-    }
-}
-
-/* Mobile & Tablet Responsiveness */
-@media (max-width: 768px) {
-    footer .footer-section {
-        width: 100%; 
-        margin-bottom: 20px; 
-    }
-    
-    footer .footer-section h4 {
-        font-size: 1.1rem; /* Slightly smaller heading for mobile */
-    }
-
-    footer .footer-section p {
-        font-size: 1rem; /* Adjust paragraph text for smaller screens */
-    }
-}
-
-

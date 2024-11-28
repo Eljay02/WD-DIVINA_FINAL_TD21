@@ -4,46 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ford Products</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/pages/CSS/style.css">
     <style>
         footer {
             background-color: #060920;
+            color: white;
             padding: 20px;
             text-align: center;
-            border-top: 10px 
+     
         }
-        footer .footer-section {
-            display: inline-block;
-            vertical-align: top;
-            margin: 0 20px;
-            text-align: left;
-        }
+        body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;  
+}
+
         footer .footer-section h4 {
             font-weight: bold;
             margin-bottom: 5px;
         }
+
         footer .footer-section p {
             margin: 5px 0;
             line-height: 1.5;
         }
-      
+
         footer a:hover {
             text-decoration: underline;
         }
 
+        .yellow-bg-darkblue-text {
+            background-color: rgb(255, 218, 8);
+            color: darkblue;
+            border-radius: 10px;
+            padding: 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .yellow-bg-darkblue-text:hover {
+            background-color: darkblue;
+            color: white;
+        }
+
+        .yellow-bg-darkblue-text a {
+            color: darkblue;
+            text-decoration: none;
+        }
+
+        .yellow-bg-darkblue-text:hover a {
+            color: white;
+        }
     </style>
 </head>
 <body>
     
     <header>
         <div class="logo">
-            <img src="assets/img/Ford Logo.png" alt="Logo" class="logo-img">
+            <img src="/pages/PRODUCT/assets/img/Ford Logo.png" alt="Logo" class="logo-img">
           </div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="products.html">Products</a>
-            <a href="contact.html">Contact</a>
+            <a href="/pages/HOME/index.html">Home</a>
+            <a href="/pages/ABOUT/about.html">About</a>
+            <a href="/pages/PRODUCT/products.html">Products</a>
+            <a href="/pages/CONTACT/contact.html">Contact</a>
 
       
             <div class="hamburger" id="hamburger">
@@ -57,24 +84,25 @@
     <!-- Side Menu -->
     <div class="side-menu" id="side-menu">
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="/pages/HOME/index.html">Home</a></li>
+            <li><a href="/pages/ABOUT/about.html">About</a></li>
+            <li><a href="/pages/PRODUCT/products.html">Products</a></li>
+            <li><a href="/pages/CONTACT/contact.html">Contact</a></li>
         </ul>
     </div>
 
     <main>
-   
         <section class="product-section">
             <div class="section-header">
                 <h2>Our Featured Products</h2>
                 <p class="section-description">Explore our top-rated Ford vehicles with premium features and designs.</p>
             </div>
             <div class="product-container">
-              
+                <!-- Product 1 -->
                 <div class="product-card">
-                    <img src="assets/img/MUSTANG.jpg" alt="Ford Mustang" class="product-image">
+                    <a href="/pages/PRODUCT/FORD MUSTANG/FORD MUSTANG.html">
+                        <img src="/pages/PRODUCT/assets/img/MUSTANG.jpg" alt="Ford Mustang" class="product-image">
+                    </a>
                     <div class="card-content">
                         <h3>Ford Mustang</h3>
                         <p class="price">$55,000</p>
@@ -82,7 +110,9 @@
                 </div>
                 <!-- Product 2 -->
                 <div class="product-card">
-                    <img src="assets/img/FORD F 150.jpg" alt="Ford F-150" class="product-image">
+                    <a href="/pages/PRODUCT/FORD 150/FORD -150.html">
+                        <img src="/pages/PRODUCT/assets/img/FORD F 150.jpg" alt="Ford F-150" class="product-image">
+                    </a>
                     <div class="card-content">
                         <h3>Ford F-150</h3>
                         <p class="price">$42,000</p>
@@ -90,7 +120,9 @@
                 </div>
                 <!-- Product 3 -->
                 <div class="product-card">
-                    <img src="assets/img/FORD E.jpg" alt="Ford Escape" class="product-image">
+                    <a href="/pages/PRODUCT/FORD ESCAPE/FORD ESAPE.html">
+                        <img src="/pages/PRODUCT/assets/img/FORD E.jpg" alt="Ford Escape" class="product-image">
+                    </a>
                     <div class="card-content">
                         <h3>Ford Escape</h3>
                         <p class="price">$28,000</p>
@@ -99,6 +131,7 @@
             </div>
         </section>
     </main>
+    
     <!-- Footer -->
     <footer>
         <div class="footer-section">
@@ -141,7 +174,7 @@
             
             <body>
                 <p class="yellow-bg-darkblue-text">
-                    <a href="contact.html">See pricing from your local dealer</a>
+                    <a href="/pages/CONTACT/contact.html">See pricing from your local dealer</a>
                 </p>
             </body>
             
@@ -156,6 +189,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script> 
+    <script src="/assets/js/script.js"></script> 
 </body>
 </html>
